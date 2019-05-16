@@ -49,7 +49,18 @@ You can now create a new test file
 
 This has now updated your changes to the remote repository -> GO CHECK!
 
+#### To pull updates from the master branch do
+***git pull origin master***
+
+if your branch and master branch are different, which might be the case
+it will complain saying there is a conflict in some file
+
+you will have to fix this conflict first
+There are some instructions here:
+https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line
 
 Now it's time to learn how to merge your local branch changes to master
 
-I have'nt done it before.. I am learning too
+I have'nt done it before.. I am learning too I will do it slowly
+
+ 
