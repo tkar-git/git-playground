@@ -22,10 +22,16 @@ You can either use the ssh link to clone or https. ssh is recomended
 
 #### I just created a new branch ;) 
 I did the following to create a new branch:
+
 **git branch tamasi**
+
 You can list all the branches you have in your repo by doing
+
 **git branch**
+
 It prints the following for me:
+
 \*master
+
 tamasi
 
