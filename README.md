@@ -19,3 +19,5 @@ Click on that and copy the link
 Next go to the directory where you would like to clone this repository and type
 git clone git@github.com:tamasigithub/REPO_upd.git
 You can either use the ssh link to clone or https. ssh is recomended
+
+
