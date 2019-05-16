@@ -49,3 +49,7 @@ You can now create a new test file
 
 This has now updated your changes to the remote repository -> GO CHECK!
 
+
+Now it's time to learn how to merge your local branch changes to master
+
+I have'nt done it before.. I am learning too
