@@ -17,5 +17,15 @@ On the right side you will see a green button 'clone or download'
 Click on that and copy the link
 
 Next go to the directory where you would like to clone this repository and type
-git clone git@github.com:tamasigithub/REPO_upd.git
+**git clone git@github.com:tamasigithub/REPO_upd.git**
 You can either use the ssh link to clone or https. ssh is recomended
+
+#### I just created a new branch ;) 
+I did the following to create a new branch:
+**git branch tamasi**
+You can list all the branches you have in your repo by doing
+**git branch**
+It prints the following for me:
+\*master
+tamasi
+
