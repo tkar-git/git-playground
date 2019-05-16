@@ -59,8 +59,25 @@ you will have to fix this conflict first
 There are some instructions here:
 https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line
 
+You can **switch b/w master and your local branch** by doing
+***git branch*** This will list all the branches and highlight the branch you are presently working on
+
+if your local branch'tamasi' is highlighted in green  then doing 
+
+***git checkout master*** will switch to master 
+
+You can switch back to your local branch by doing 
+***git checkout tamasi***
+
 Now it's time to learn how to merge your local branch changes to master
 
 I have'nt done it before.. I am learning too I will do it slowly
+First switch to the master branch
+***git checkout master***
 
+next pass the merge command
+***git merge tamasi***
+
+next push the changes to master
+***git push -u origin master ***
  
