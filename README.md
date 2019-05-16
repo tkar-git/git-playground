@@ -1,6 +1,6 @@
 # REPO_upd
 
-## HOLA Rushab, Neeraj!
+## HOLA Rushabh, Neeraj!
 
 #### I guess you are here to clone me ;)
 
