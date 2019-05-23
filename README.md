@@ -63,4 +63,9 @@ Now it's time to learn how to merge your local branch changes to master
 
 I have'nt done it before.. I am learning too I will do it slowly
 
+if you want to checkout a specific remote branch from a repository
+
+clone the master branch and do :
+git checkout --track origin/<name_of_remote_branch>
+
  
