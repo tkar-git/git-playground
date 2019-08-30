@@ -8,7 +8,7 @@
 Follow the instructions on the link below: 
 <br /> https://gitlab.com/help/ssh/README#generating-a-new-ssh-key-pair
 
-If you have a github account and the admin of the repository(which is **tamasigithub** for this repository)
+If you have a gitlab account and the admin of the repository(which is **tamasigithub** for this repository)
 then you can have a look at the contents here:
 https://gitlab.com/tamasigithub/REPO_upd
 <br /> On the right side you will see a blue button 'clone' either with ssh(recomended) or https
@@ -19,6 +19,7 @@ Next go to the directory where you would like to clone this repository and type
 <br /> ***git clone git@gitlab.com:tamasigithub/REPO_upd.git***
 
 #### I just created a new branch ;) 
+
 I did the following to create a new branch:
 <br /> ***git branch tamasi ***
 
@@ -29,10 +30,10 @@ You can list all the branches you have in your repo by doing
 <br /> tamasi
 
 To switch to the newly created branch 'tamasi' do
-<br \> ***git checkout tamasi***
+<br /> ***git checkout tamasi***
 
 You can now create a new test file
-<br \> ***touch test.txt***
+<br /> ***touch test.txt***
 
 ***git add test.txt***
 
