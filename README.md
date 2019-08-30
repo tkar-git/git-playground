@@ -81,6 +81,3 @@ if you want to checkout a specific remote branch from a repository
 
 clone the master branch and do :
 git checkout --track origin/<name_of_remote_branch>
-
-next push the changes to master
-***git push -u origin master ***
