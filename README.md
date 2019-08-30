@@ -28,7 +28,9 @@ You can list all the branches you have in your repo by doing
 ***git branch***
 
 It prints the following for me:
+
 \*master
+
 tamasi
 
 To switch to the newly created branch 'tamasi' do
@@ -55,7 +57,9 @@ it will complain saying there is a conflict in some file
 
 you will have to fix this conflict first
 There are some instructions here:
+
 https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line 
+
 https://docs.gitlab.com/ee/university/training/topics/merge_conflicts.html
 
 You can **switch b/w master and your local branch** by doing
