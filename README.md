@@ -1,24 +1,22 @@
 # REPO_upd
 
-## HOLA Rushabh, Neeraj!
+## HOLA Sonam!
 
 #### I guess you are here to clone me ;)
 
 #### But have you already added the ssh keys to make ssh cloning possible?
 Follow the instructions on the link below: 
-https://help.github.com/en/articles/connecting-to-github-with-ssh
+https://gitlab.com/help/ssh/README#generating-a-new-ssh-key-pair
 
 If you have a github account and the admin of the repository(which is **tamasigithub** for this repository)
 then you can have a look at the contents here:
-https://github.com/tamasigithub/REPO_upd
-
-On the right side you will see a green button 'clone or download'
+https://gitlab.com/tamasigithub/REPO_upd
+On the right side you will see a blue button 'clone' either with ssh(recomended) or https
 
 Click on that and copy the link
 
 Next go to the directory where you would like to clone this repository and type
-***git clone git@github.com:tamasigithub/REPO_upd.git***
-You can either use the ssh link to clone or https. ssh is recomended
+***git clone git@gitlab.com:tamasigithub/REPO_upd.git***
 
 #### I just created a new branch ;) 
 I did the following to create a new branch:
@@ -57,15 +55,32 @@ it will complain saying there is a conflict in some file
 
 you will have to fix this conflict first
 There are some instructions here:
-https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line
+https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line 
+https://docs.gitlab.com/ee/university/training/topics/merge_conflicts.html
+
+You can **switch b/w master and your local branch** by doing
+***git branch*** This will list all the branches and highlight the branch you are presently working on
+
+if your local branch'tamasi' is highlighted in green  then doing 
+
+***git checkout master*** will switch to master 
+
+You can switch back to your local branch by doing 
+***git checkout tamasi***
 
 Now it's time to learn how to merge your local branch changes to master
 
 I have'nt done it before.. I am learning too I will do it slowly
+First switch to the master branch
+***git checkout master***
+
+next pass the merge command
+***git merge tamasi***
 
 if you want to checkout a specific remote branch from a repository
 
 clone the master branch and do :
 git checkout --track origin/<name_of_remote_branch>
 
- 
+next push the changes to master
+***git push -u origin master ***
