@@ -23,7 +23,7 @@ git clone git@gitlab.com:tamasigithub/REPO_upd.git
 #### I just created a new branch ;) 
 I did the following to create a new branch:
 ```
-***git branch tamasi ***
+git branch tamasi
 ```
 
 You can list all the branches you have in your repo by doing
