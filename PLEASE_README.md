@@ -1,7 +1,7 @@
 # Parton Showering with Pythia8
 
 The steps detailed below are used to produce a root file as an output given a lhe file as input.
-<br />The scripts present in this directory are used to decay SM higgs to b's and hence shower them which can be easily modified in the file ***shower.cmnd*** (more details below)
+The scripts present in this directory are used to decay SM higgs to b's and hence shower them which can be easily modified in the file ***shower.cmnd*** (more details below)
 <br />The root file contains a **TTree** named ***CollectionTree*** and contains kinematic varibles of the final state particles(HEPMC status = 1)
 including the b's and higgs
 
@@ -16,9 +16,9 @@ This program needs the following:
 
 #### Install Instructions on lxplus and naf
 
-Setup ATLAS environment and some random Athena release to configure ****gcc, root, lhapdf and fast-jet***
+Setup ATLAS environment and some random Athena release to configure ***gcc, root, lhapdf and fast-jet.***
 <br /> To do this source the env_setup script in mc-generator and if you are installing pythia8 for the first time, export.sh will be generated in the requirements folder.
-<br /> It must be executed every time you login to use pythia and also after installing pythia for the first time. Assuming that you are in forPythia directory
+<br /> It must be executed every time you login to use pythia and also after installing pythia for the first time. Assuming that you are in **forPythia** directory
 ```
 cd ../
 source env_setup
