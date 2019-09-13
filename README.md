@@ -17,7 +17,7 @@ Click on that and copy the link
 
 Next go to the directory where you would like to clone this repository and type
 ```
-***git clone git@gitlab.com:tamasigithub/REPO_upd.git***
+git clone git@gitlab.com:tamasigithub/REPO_upd.git
 ```
 
 #### I just created a new branch ;) 
@@ -28,7 +28,7 @@ I did the following to create a new branch:
 
 You can list all the branches you have in your repo by doing
 ```
-***git branch***
+git branch
 ```
 
 It prints the following for me:
@@ -39,22 +39,22 @@ tamasi
 
 To switch to the newly created branch 'tamasi' do
 ```
-***git checkout tamasi***
+git checkout tamasi
 ```
 
 You can now create a new test file
 ```
-***touch test.txt***
-***git add test.txt***
-***git status***
-***git commit -m "hurray my first test text file ;)"***
-***git push --set-upstream origin tamasi***
+touch test.txt
+git add test.txt
+git status
+git commit -m "hurray my first test text file ;)"
+git push --set-upstream origin tamasi
 ```
 This has now updated your changes to the remote repository -> GO CHECK!
 
 #### To pull updates from the master branch do
 ```
-***git pull origin master***
+git pull origin master
 ```
 
 if your branch and master branch are different, which might be the case
@@ -67,17 +67,16 @@ https://docs.gitlab.com/ee/university/training/topics/merge_conflicts.html
 
 You can **switch b/w master and your local branch** by doing
 ```
-***git branch*** 
+git branch 
 ```
 This will list all the branches and highlight the branch you are presently working on
 
-if your local branch'tamasi' is highlighted in green  then doing 
-
+if your local branch'tamasi' is highlighted in green  then doing
 ***git checkout master*** will switch to master 
 
 You can switch back to your local branch by doing 
 ```
-***git checkout tamasi***
+git checkout tamasi
 ```
 
 Now it's time to learn how to merge your local branch changes to master
@@ -85,12 +84,12 @@ Now it's time to learn how to merge your local branch changes to master
 I have'nt done it before.. I am learning too I will do it slowly
 First switch to the master branch
 ```
-***git checkout master***
+git checkout master
 ```
 
 next pass the merge command
 ```
-***git merge tamasi***
+git merge tamasi
 ```
 
 if you want to checkout a specific remote branch from a repository
