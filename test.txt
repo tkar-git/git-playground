@@ -1,2 +1,3 @@
 YO YO!
 This is my new text file in my own branch ;)
+new dev_tamasi commit
