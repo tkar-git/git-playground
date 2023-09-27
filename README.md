@@ -6,12 +6,12 @@
 
 #### But have you already added the ssh keys to make ssh cloning possible?
 Follow the instructions on the link below: 
-https://gitlab.com/help/ssh/README#generating-a-new-ssh-key-pair
+<br /> https://gitlab.com/help/ssh/README#generating-a-new-ssh-key-pair
 
-If you have a github account and the admin of the repository(which is **tamasigithub** for this repository)
+If you have a gitlab account and the admin of the repository(which is **tamasigithub** for this repository)
 then you can have a look at the contents here:
 https://gitlab.com/tamasigithub/REPO_upd
-On the right side you will see a blue button 'clone' either with ssh(recomended) or https
+<br /> On the right side you will see a blue button 'clone' either with ssh(recomended) or https
 
 Click on that and copy the link
 
@@ -56,14 +56,12 @@ This has now updated your changes to the remote repository -> GO CHECK!
 ```
 git pull origin master
 ```
-
-if your branch and master branch are different, which might be the case
+If your branch and master branch are different (which might be the case),
 it will complain saying there is a conflict in some file
-
-you will have to fix this conflict first
-There are some instructions here:
-https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line 
-https://docs.gitlab.com/ee/university/training/topics/merge_conflicts.html
+<br /> you will have to fix this conflict first
+<br /> There are some instructions here:
+<br /> https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line 
+<br /> https://docs.gitlab.com/ee/university/training/topics/merge_conflicts.html
 
 You can **switch b/w master and your local branch** by doing
 ```
@@ -78,7 +76,6 @@ You can switch back to your local branch by doing
 ```
 git checkout tamasi
 ```
-
 Now it's time to learn how to merge your local branch changes to master
 
 I have'nt done it before.. I am learning too I will do it slowly
