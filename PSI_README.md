@@ -56,7 +56,9 @@ Add ssh-keys to your profile:
 
 ## Pushing your changes to remote
 
+```
 git push origin HEAD
+```
 
 ## Merging your changes into master
 
