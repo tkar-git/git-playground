@@ -44,13 +44,21 @@ Add ssh-keys to your profile:
 - [ ] Next to generate an SSH key on your machine follow instructions under `Learn more` or click [here](https://gitlab.rlp.net/help/user/ssh.md)
 ---
 
-## Let's create a your own new branch
+## Let's create you a own new branch
 
 
 
 ## Backup your changes
 
 
+
+## Tracking a different remote branch (e.g. master)
+
+## Pushing your changes to remote
+
+git push origin HEAD
+
+## Merging your changes into master
 
 
 ## Avoid adding large size files (e.g. Data files / build files / etc.)  
