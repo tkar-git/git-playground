@@ -1,12 +1,8 @@
 # Git Play Ground
----
----
 
 This is a repository for you to familiarize yourself with git. Some intructions/commands below introduce you to the very basics of git. But of course there's much more...
 
 ## First Things: Git User Configuration
----
----
 
 #### Have you already configured git with your user information on this machine?
 Note that the configuration needs to be done only once on a machine
@@ -30,8 +26,6 @@ Here *Your Name* and *your@email.com* will be attached to your commits and tags.
 
 
 ## Clone this repo
----
----
 
 You can clone this repository and create your own branch and add text files/ codes etc.
 
@@ -51,20 +45,14 @@ Add ssh-keys to your profile:
 ---
 
 ## Let's create a your own new branch
----
----
 
 
 
 ## Backup your changes
----
----
 
 
 
 
 ## Avoid adding large size files (e.g. Data files / build files / etc.)  
----
----
 
 
