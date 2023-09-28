@@ -25,9 +25,9 @@ git config --global user.email "your@email.com"
 Here *Your Name* and *your@email.com* will be attached to your commits and tags.
 
 
-## Clone this repo
+## Clone this repository
 
-You can clone this repository and create your own branch and add text files/ codes etc.
+You can clone this repository, create your own branch and add text files/ codes etc.
 
 ```
 git clone https://gitlab.rlp.net/psi2023/gitplayground.git
@@ -36,6 +36,8 @@ git clone https://gitlab.rlp.net/psi2023/gitplayground.git
 Carefully enter the correct *email-id* and *password* associated with your rlp gitlab account.
 
 ---
+Advanced:
+
 You want to avoid adding username and password everytime?
 
 Add ssh-keys to your profile:
@@ -44,15 +46,32 @@ Add ssh-keys to your profile:
 - [ ] Next to generate an SSH key on your machine follow instructions under `Learn more` or click [here](https://gitlab.rlp.net/help/user/ssh.md)
 ---
 
-## Let's create you a own new branch
+## Let's create a new branch
 
+The main branch of a repository is typically called either `main` or `master` branch. This branch should in principle hold a non buggy code that compiles and is error free.
+Therefore, every user/developer who is working of a specific task should create his/her own branch. I will call my branch `dev_tamasi`, where dev corresponds to development.
 
+```
+git branch dev_tamasi
+git checkout dev_tamasi
+```
+The branch command above creates a new local branch with the branch name *e.g. dev_tamasi* and the checkout command switches to this local branch.
+You can do the above two steps in a single step using the following:
+
+```
+git checkout -b dev_tamasi
+
+```
+
+You can check on which branch you are using the command `git branch`
 
 ## Backup your changes
 
+Let's add something to your newly created branch:
 
 
 ## Tracking a different remote branch (e.g. master)
+
 
 
 ## Pushing your changes to remote
