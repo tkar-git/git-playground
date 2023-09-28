@@ -101,9 +101,29 @@ git branch -u origin/main
 git push origin HEAD
 ```
 
-## Merging your changes into master
+## Pulling from a different remote branch than the upstream branch
+
+```
+git pull origin <remote_branch_name>
+```
+
+## Merging your changes into remote master
+
+The best and the recommended way to do this is to create a merge request after ensuring no bugs/errors.
 
 
-## Avoid adding large size files (e.g. Data files / build files / etc.)  
+## How to avoid adding large size files (e.g. Data files / build files / etc.)  
 
+You can create a **.gitignore** file in your repository and add the extensions of the files/folders you don't want to add.
 
+For example: you can use your favourite editor and add the following to *.gitignore* to ignore adding/pushing txt and root files to remote.
+
+```
+*.txt
+*.root
+```
+
+## Contact
+
+Tamasi Kar, University of Heidelberg
+kar@physi.uni-heidelberg.de
