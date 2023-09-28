@@ -126,4 +126,5 @@ For example: you can use your favourite editor and add the following to *.gitign
 ## Contact
 
 Tamasi Kar, University of Heidelberg
+
 kar@physi.uni-heidelberg.de
