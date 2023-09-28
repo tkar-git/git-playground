@@ -2,7 +2,7 @@
 
 This is a repository for you to familiarize yourself with git. Some intructions/commands below introduce you to the very basics of git. But of course there's much more...
 
-## First Things: Git User Configuration
+## Git User Configuration (to be done once on a machine)
 
 #### Have you already configured git with your user information on this machine?
 Note that the configuration needs to be done only once on a machine
@@ -33,7 +33,9 @@ You can clone this repository, create your own branch and add text files/ codes 
 git clone https://gitlab.rlp.net/psi2023/gitplayground.git
 
 ```
-Carefully enter the correct *email-id* and *password* associated with your rlp gitlab account.
+Carefully enter the correct *email-id* followed by the *password* associated with your rlp gitlab account.
+
+
 
 ---
 Advanced:
@@ -49,7 +51,7 @@ Add ssh-keys to your profile:
 ## Let's create a new branch
 
 The main branch of a repository is typically called either `main` or `master` branch. This branch should in principle hold a non buggy code that compiles and is error free.
-Therefore, every user/developer who is working of a specific task should create his/her own branch. I will call my branch `dev_tamasi`, where dev corresponds to development.
+Therefore, every user/developer who is working on a specific task should create his/her own branch. I will call my branch `dev_tamasi`, where dev corresponds to development.
 
 ```
 git branch dev_tamasi
@@ -59,7 +61,7 @@ The branch command above creates a new local branch with the branch name *e.g. d
 You can do the above two steps in a single step using the following:
 
 ```
-git checkout -b dev_tamasi
+git checkout -b <your_branch_name>
 
 ```
 
@@ -89,9 +91,11 @@ git push --set-upstream origin dev_tamasi
 The *add* command stages the changes of your local branch to be committed using the next command with a **meaningfull message**.
 The *push* command not only pushes your commits to a remote repository but also sets the local repositories tracking head to the specified remote branch name (in this case also `dev_tamasi`).
 
-## Tracking a different remote branch (e.g. master)
+## Tracking a different remote branch (e.g. main)
 
-
+```
+git branch -u origin/main
+```
 
 ## Pushing your changes to remote
 
@@ -99,9 +103,30 @@ The *push* command not only pushes your commits to a remote repository but also 
 git push origin HEAD
 ```
 
-## Merging your changes into master
+## Pulling from a different remote branch than the upstream branch
+
+```
+git pull origin <remote_branch_name>
+```
+
+## Merging your changes into remote master
+
+The best and the recommended way to do this is to create a merge request after ensuring no bugs/errors.
 
 
-## Avoid adding large size files (e.g. Data files / build files / etc.)  
+## How to avoid adding large size files (e.g. Data files / build files / etc.)  
 
+You can create a **.gitignore** file in your repository and add the extensions of the files/folders you don't want to add.
 
+For example: you can use your favourite editor and add the following to *.gitignore* to ignore adding/pushing txt and root files to remote.
+
+```
+*.txt
+*.root
+```
+
+## Contact
+
+Tamasi Kar, University of Heidelberg
+
+kar@physi.uni-heidelberg.de
