@@ -89,9 +89,11 @@ git push --set-upstream origin dev_tamasi
 The *add* command stages the changes of your local branch to be committed using the next command with a **meaningfull message**.
 The *push* command not only pushes your commits to a remote repository but also sets the local repositories tracking head to the specified remote branch name (in this case also `dev_tamasi`).
 
-## Tracking a different remote branch (e.g. master)
+## Tracking a different remote branch (e.g. main)
 
-
+```
+git branch -u origin/main
+```
 
 ## Pushing your changes to remote
 
