@@ -63,12 +63,31 @@ git checkout -b dev_tamasi
 
 ```
 
-You can check on which branch you are using the command `git branch`
+You can check on which branch you are using the command `git branch`. You can also do `git branch -vv` to check which remote branch you are tracking.
 
 ## Backup your changes
 
 Let's add something to your newly created branch:
 
+You can, for example, just create a txt file and add some content to it using your favourite editor.
+You could also copy your root exercises (c++ files) to your branch.
+
+```
+touch test.txt
+
+```
+
+You'll frequently use the command `git status` to check for the files you have modified and have or have not backedup. Let's check!
+
+```
+git status
+git add test.txt
+git commit -m "YAY my first git commit :)"
+git push --set-upstream origin dev_tamasi
+
+```
+The *add* command stages the changes of your local branch to be committed using the next command with a **meaningfull message**.
+The *push* command not only pushes your commits to a remote repository but also sets the local repositories tracking head to the specified remote branch name (in this case also `dev_tamasi`).
 
 ## Tracking a different remote branch (e.g. master)
 
