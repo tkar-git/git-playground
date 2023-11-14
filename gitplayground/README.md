@@ -30,10 +30,10 @@ Here *Your Name* and *your@email.com* will be attached to your commits and tags.
 You can clone this repository, create your own branch and add text files/ codes etc.
 
 ```
-git clone https://gitlab.rlp.net/psi2023/gitplayground.git
+git clone https://gitlab.com/tamasigithub/REPO_upd.git
 
 ```
-Carefully enter the correct *email-id* followed by the *password* associated with your rlp gitlab account.
+Carefully enter the correct *email-id* followed by the *password* associated with your gitlab account.
 
 
 
