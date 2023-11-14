@@ -35,7 +35,9 @@ git clone https://gitlab.com/tamasigithub/REPO_upd.git
 ```
 Carefully enter the correct *email-id* followed by the *password* associated with your gitlab account.
 
-
+```
+cd gitplayground
+```
 
 ---
 Advanced:
