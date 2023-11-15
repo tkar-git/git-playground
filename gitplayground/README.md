@@ -48,6 +48,11 @@ Add ssh-keys to your profile:
 - [ ] Click on your profile picture or initial if you do not have a profile picture
 - [ ] Next click on `Edit profile` followed by `SSH Keys` and `Add new key`
 - [ ] Next to generate an SSH key on your machine follow instructions under `Learn more` or click [here](https://gitlab.rlp.net/help/user/ssh.md)
+
+Now clone the repository using ssh instead of https
+```
+git clone git@gitlab.com:tamasigithub/REPO_upd.git
+```
 ---
 
 ## Let's create a new branch
