@@ -41,6 +41,7 @@ cd gitplayground
 
 ---
 Advanced:
+Skip this if you are doing this tutorial for the first time.
 
 You want to avoid adding username and password everytime?
 
@@ -61,6 +62,7 @@ The main branch of a repository is typically called either `main` or `master` br
 Therefore, every user/developer who is working on a specific task should create his/her own branch. I will call my branch `dev_tamasi`, where dev corresponds to development.
 
 ```
+cd gitplayground
 git branch dev_tamasi
 git checkout dev_tamasi
 ```
@@ -132,7 +134,29 @@ For example: you can use your favourite editor and add the following to *.gitign
 *.root
 ```
 
-## TODO: add example to create a merge conflict
+## Merge conflicts
+
+Merge conflits can occur when competing changes are made to the same line of a file or when one user edits a file and another user deletes the same file.
+
+For example, modify the existing text in **mergeTest.txt** file.
+
+You can now add your changes to your branch and hit git status.
+
+```
+git add mergeTest.txt
+git commit -m "random text in mergeTest"
+git push
+git status
+```
+
+Next, in the main branch I will modify the same file again and push my changes.
+
+```
+git status
+git pull origin main
+```
+
+You should have now created a merge conflict. Open the file in which the merge conflict has arised and fix it.
 
 ## Contact
 
