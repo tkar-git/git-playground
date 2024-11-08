@@ -35,8 +35,10 @@ git clone https://gitlab.com/tamasigithub/REPO_upd.git
 ```
 Carefully enter the correct *email-id* followed by the *password* associated with your gitlab account.
 
+Now switch to the newly cloned repository.
+
 ```
-cd gitplayground
+cd REPO_upd/gitplayground
 ```
 
 ---
@@ -135,7 +137,7 @@ For example: you can use your favourite editor and add the following to *.gitign
 
 ## Merge conflicts
 
-Merge conflits can occur when competing changes are made to the same line of a file or when one user edits a file and another user deletes the same file.
+Merge conflicts can occur when competing changes are made to the same line of a file or when one user edits a file and another user deletes the same file.
 
 For example, modify the existing text in **mergeTest.txt** file.
 
@@ -148,14 +150,14 @@ git push
 git status
 ```
 
-Next, in the main branch I will modify the same file again and push my changes.
+Next, in the master branch I will modify the same file again and push my changes.
 
 ```
 git status
 git pull origin main
 ```
 
-You should have now created a merge conflict. Open the file in which the merge conflict has arised and fix it.
+You should have now created a merge conflict. Open the file in which the merge conflict has arosen and fix it.
 
 ## Contact
 
