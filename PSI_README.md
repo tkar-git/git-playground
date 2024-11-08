@@ -54,7 +54,6 @@ The main branch of a repository is typically called either `main` or `master` br
 Therefore, every user/developer who is working on a specific task should create his/her own branch. I will call my branch `dev_tamasi`, where dev corresponds to development.
 
 ```
-cd gitplayground
 git branch dev_tamasi
 git checkout dev_tamasi
 ```
