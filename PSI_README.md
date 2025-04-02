@@ -30,7 +30,7 @@ Here *Your Name* and *your@email.com* will be attached to your commits and tags.
 You can clone this repository, create your own branch and add text files/ codes etc.
 
 ```
-git clone https://gitlab.rlp.net/psi2023/gitplayground.git
+git clone https://gitlab.rlp.net/psi2024/gitplayground.git
 
 ```
 Carefully enter the correct *email-id* followed by the *password* associated with your rlp gitlab account.
@@ -124,6 +124,30 @@ For example: you can use your favourite editor and add the following to *.gitign
 *.txt
 *.root
 ```
+
+## Merge conflicts
+
+Merge conflits can occur when competing changes are made to the same line of a file or when one user edits a file and another user deletes the same file.
+
+For example, modify the existing text in **mergeTest.txt** file.
+
+You can now add your changes to your branch and hit git status.
+
+```
+git add mergeTest.txt
+git commit -m "random text in mergeTest"
+git push
+git status
+```
+
+Next, in the main branch I will modify the same file again and push my changes.
+
+```
+git status
+git pull origin main
+```
+
+You should have now created a merge conflict. Open the file in which the merge conflict has arised and fix it.
 
 ## Contact
 
