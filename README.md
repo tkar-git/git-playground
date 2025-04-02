@@ -128,6 +128,7 @@ git push origin HEAD
 ```
 git pull origin <remote_branch_name>
 ```
+- Not able to push your changes? Ask the owner of the repository to add you as a collaborator -- OR -- create a `fork` of the repository and push your changes to your own fork. You can then create a `pull request` to merge your changes into the original repository.
 
 ## Merging your changes into remote master
 
