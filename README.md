@@ -172,6 +172,6 @@ You should have now created a merge conflict. Open the file in which the merge c
 
 ## Contact
 
-Tamasi Kar, University of Heidelberg
+Tamasi Unicorn Kar, University of Heidelberg
 
-kar@physi.uni-heidelberg.de
+kar@physi.uni-corn.de
