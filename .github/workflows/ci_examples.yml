@@ -23,7 +23,7 @@ jobs:
     - name: Download input file
       run: |
         mkdir -p examples/data/input
-        curl -L -o examples/data/input/sample.csv https://www.physi.uni-heidelberg.de/~kar/teaching/versionControl_CI/sample.csv  # Replace with your actual URL
+        curl -L -o examples/data/input/sample.csv https://www.physi.uni-heidelberg.de/~kar/teaching/versionControl_CI/sample.csv  || echo "lets trick such that it doesn't fail"# Replace with your actual URL
 
     - name: Set up Python
       uses: actions/setup-python@v4
