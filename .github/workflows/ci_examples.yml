@@ -44,14 +44,14 @@ jobs:
         pytest examples/python_example/tests/test_plotxy.py
 
     - name: Upload test output (plots) for linux
-      if: matrix.os == "ubuntu-latest"
+      if: matrix.os == 'ubuntu-latest'
       uses: actions/upload-artifact@v4
       with:
         name: plot-artifacts
         path: examples/data/output/*.png  # Adjust the path to your plot files
 
     - name: Upload artifacts for macos
-      if: matrix.os == "macos-latest"
+      if: matrix.os == 'macos-latest'
       uses: actions/upload-artifact@v4
       with:
         name: plot artifacts macos
