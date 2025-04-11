@@ -3,7 +3,7 @@ name: python_example
 on:
   push:
     branches:
-      - dev_test
+      - master
   pull_request:
     branches:
       - dev_test
