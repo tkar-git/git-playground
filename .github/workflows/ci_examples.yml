@@ -1,0 +1,43 @@
+name: python_example
+
+on:
+  push:
+    branches:
+      - dev_test
+  pull_request:
+    branches:
+      - dev_test
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download input file
+      run: |
+        mkdir -p examples/data/input
+        curl -L -o examples/data/input/sample.csv https://www.physi.uni-heidelberg.de/~kar/teaching/versionControl_CI/sample.csv  # Replace with your actual URL
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install pytest
+        pip install -e examples/python_example/
+
+    - name: Run tests
+      run: |
+        pytest examples/python_example/tests/test_plotxy.py
+
+    - name: Upload test output (plots) as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: plot-artifacts
+        path: examples/data/output/*.png  # Adjust the path to your plot files
