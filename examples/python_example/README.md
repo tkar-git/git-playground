@@ -7,7 +7,9 @@
 
 ## installation
 ```bash
+cd ./examples/python_example
 pip install -e .
+mkdir -p ../data/output
 ```
 Here `.` should specify the path of the setup.py file
 
