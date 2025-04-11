@@ -28,15 +28,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m venv .venv
-        . .venv/bin/activate
         pip install --upgrade pip
         pip install pytest
         pip install -e examples/python_example/
 
     - name: Run tests
       run: |
-        . .venv/bin/activate
         pytest examples/python_example/tests/test_plotxy.py
 
     - name: Upload test output (plots) as artifact
