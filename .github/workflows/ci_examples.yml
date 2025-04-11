@@ -9,8 +9,12 @@ on:
       - dev_test
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  test_python:
+    runs-on: {{matrix.os}}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
 
     steps:
     - name: Checkout code
@@ -28,12 +32,15 @@ jobs:
 
     - name: Install dependencies
       run: |
+        python3 -m venv examples/python_example/.venv
+        source examples/python_example/.venv/bin/activate
         pip install --upgrade pip
         pip install pytest
         pip install -e examples/python_example/
 
     - name: Run tests
       run: |
+        source examples/python_example/.venv/bin/activate
         pytest examples/python_example/tests/test_plotxy.py
 
     - name: Upload test output (plots) as artifact
