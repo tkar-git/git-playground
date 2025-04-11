@@ -31,7 +31,7 @@ jobs:
         python -m venv .venv
         . .venv/bin/activate
         pip install --upgrade pip
-        pip install -e .
+        pip install -e examples/python_example/.
 
     - name: Run tests
       run: |
