@@ -30,7 +30,7 @@ Note that the configuration needs to be done only once on a machine
 
 - If you do not remember, check using the following command:
 
-```
+```bash
 git config --list
 ```
 
